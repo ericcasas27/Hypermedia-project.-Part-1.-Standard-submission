@@ -1,0 +1,102 @@
+/*Per tot el document*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*Capçalera*/
+header {
+    background-color: #2682bf;
+    padding: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+
+/*Cos*/
+body {
+    background-color: #f4f4f9;
+    color: #000000;
+}
+/* Contenedor principal para organizar las columnas */
+.container {
+    display: flex;
+    width: 80%; /* Ajusta el ancho según prefieras */
+    margin: 0 auto; /* Centra el contenido en la página */
+}
+
+/*cantó esquerra*/
+.esquerra {
+    width: 70%;
+    padding-right: 20px;
+
+}
+
+/*cantó dret*/
+.dreta {
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(213, 242, 246);
+}
+
+/*Per posar la fletxa blava a davant dels títols*/
+h2::before {
+    background-image: url('flecha.png');   
+    background-size: contain; 
+    background-repeat: no-repeat;
+    content: "";  
+    display: inline-block;  
+    width: 25px; 
+    height: 17px;  
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
+
+
+/*llistes ordenades dintre de llistes de 'puntets'*/
+ul, ol {
+    margin-left: 0px;  
+    padding-left: 25px;
+}
+/*llistes no ordenades (de 'puntets')*/
+li {
+    margin-bottom: 5px; 
+    padding-left: 0px;  
+}
+
+/*titols del cos*/
+ h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+/*pels dibuixets del telèfon, mapa i correu de la part drerta*/
+.contact img {
+    width: auto;
+    height: 1em;
+    vertical-align: middle; 
+    margin-right: 8px;
+}
+
+/*per la meva foto*/
+.eric {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin-left: 0px; 
+}
+
+/*perquè els textos p tinguin més separació*/
+p {
+    margin: 10px 0;
+}
+
