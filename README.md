@@ -30,4 +30,4 @@ Hypermedia project. Part 1. Standard submission:
 
 - **Link to the public page with Github Pages:**
 
-https://ericcasas27.github.io/Hypermedia-project.-Part-1.-Standard-submission/
+  https://ericcasas27.github.io/Hypermedia-project.-Part-1.-Standard-submission/
