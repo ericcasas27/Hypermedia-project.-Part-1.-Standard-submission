@@ -27,3 +27,6 @@ Hypermedia project. Part 1. Standard submission:
 - **Link to the Figma project:**
 
   https://www.figma.com/design/fJp6dablNqtGRJMe1EopHW/Eric-Casas-CV?node-id=0-1&m=dev&t=pXvYjDJSV3rY1DxB-1
+
+- **Link to the public page with Github Pages:**
+https://ericcasas27.github.io/Hypermedia-project.-Part-1.-Standard-submission/
